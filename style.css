@@ -62,4 +62,4 @@ main .section .eyebrow{color:var(--muted)}
 .social a{display:inline-block;margin-left:12px}.social svg{width:22px;height:22px;fill:#C7D2E3}.social a:hover svg{fill:var(--gold)}
 @media(max-width:820px){.hero-grid,.two-col,.three-col,.project{grid-template-columns:1fr}.menu-btn{display:block}.nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);padding:10px 20px 16px}.nav a{display:block;margin:0;padding:10px 0}body.nav-open .nav{display:block}.claim{font-size:1rem;padding:18px}}
 
-.hero .btn{color:var(--navy)}.hero .btn.ghost{color:#fff;border-color:#fff}.headshot.placeholder{border-radius:50%}
+.hero .btn{color:var(--navy)}.hero .btn.ghost{color:#fff;border-color:#fff}.headshot.placeholder{border-radius:50%}.headshot{object-fit:cover;border:3px solid var(--gold)}.media{width:100%;height:auto;border-radius:var(--r);border:1px solid var(--line);display:block;background:#fff}.gallery .media{aspect-ratio:4/3;object-fit:contain}

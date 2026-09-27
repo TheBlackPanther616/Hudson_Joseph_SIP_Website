@@ -12,17 +12,13 @@ Static site: no build step, no framework. Six pages + one stylesheet.
 | Placeholder | Where | Replace with |
 |---|---|---|
 | `YOUR-GITHUB` | all pages (footer, SIP, Projects, Contact) | your GitHub username |
-| `YOUR-LINKEDIN` | footer, Contact | your LinkedIn slug |
-| `YOUR-CHANNEL` | footer, SIP | your YouTube handle |
-| `YOUR-UAT-EMAIL@uat.edu` | Contact | your UAT email |
 | `YOUR-FORM-ID` | contact.html | free Formspree endpoint (formspree.io → New form → copy the /f/xxxx id). Until then the form has no backend. |
 
-Run once from this folder: `sed -i 's/YOUR-GITHUB/yourname/g; s/YOUR-LINKEDIN/yourslug/g' *.html`
 
 ## Images and documents to drop in
-- `img/headshot.jpg` — then in index.html replace the headshot placeholder div with `<img class="headshot" src="img/headshot.jpg" alt="Joseph Hudson Jr.">`
+- Headshot is already in place (`img/headshot.png`).
 - `img/` — logos, UML, mockup, n8n screenshot (names listed on each placeholder). Replace each `<div class="placeholder ...">` with `<img src="img/name.png" alt="...">`.
-- `docs/Hudson_Module13_FinalProject_SRS.pdf`, `docs/Hudson_SIP311_Pitch.pdf`, `docs/Hudson_SIP_Brief.pdf` (the SIP Brief subpage embeds this automatically).
+- SRS PDF, pitch deck (PDF + PPTX), logo video and stills, and UML figures are already in `docs/` and `img/`. Still to add: `docs/Hudson_SIP_Brief.pdf` (SIP Brief subpage embeds it automatically) and `img/thecallai-logo.png`.
 
 ## Pages
 index · sip (with #claim #description #architecture #prototype #visuals #code #brief #roadmap) · sip-brief · boards · projects · contact
